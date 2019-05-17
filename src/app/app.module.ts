@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import {FormsModule} from '@angular/forms';
 import { ContactListComponent } from './contact/contact-list/contact-list.component';
 import { ContactListItemComponent } from './contact/contact-list/contact-list-item/contact-list-item.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatButtonModule} from "@angular/material";
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { ContactListItemComponent } from './contact/contact-list/contact-list-it
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    BrowserAnimationsModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
