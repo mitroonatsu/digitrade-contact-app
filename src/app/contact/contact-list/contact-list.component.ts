@@ -14,9 +14,9 @@ export class ContactListComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.contacts.push(new Contact('Aku', 'Ankka'));
-    this.contacts.push(new Contact('Roope', 'Ankka'));
-    this.contacts.push(new Contact('Taavi', 'Ankka'));
+    this.contacts.push(new Contact('Aku', 'Ankka', '0501234567'));
+    this.contacts.push(new Contact('Roope', 'Ankka', '0502345678'));
+    this.contacts.push(new Contact('Taavi', 'Ankka', '0503456789'));
     console.log(this.contacts);
   }
 
