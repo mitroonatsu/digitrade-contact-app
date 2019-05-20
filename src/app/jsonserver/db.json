@@ -1,0 +1,17 @@
+{
+  "contacts": [
+    {
+      "firstName": "Aku",
+      "lastName": "Ankka",
+      "phone": "12345"
+    }, {
+      "firstName": "Roope",
+      "lastName": "Ankka",
+      "phone": "23456"
+    }, {
+      "firstName": "Taavi",
+      "lastName": "Ankka",
+      "phone": "34567"
+    }
+  ]
+}
