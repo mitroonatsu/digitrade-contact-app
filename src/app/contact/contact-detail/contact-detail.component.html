@@ -1,0 +1,35 @@
+<mat-card class="mat-card">
+  <mat-card-content fxLayoutAlign="center center" fxLayout="column">
+    <mat-form-field>
+      <input matInput
+             type="text"
+             required
+             placeholder="First name">
+   <!--   [(ngModel)]="contact.firstName"
+      name="firstName" #FirstName="ngModel"
+      <mat-error *ngIf="FirstName.invalid">
+        First name required
+      </mat-error>-->
+    </mat-form-field><mat-form-field>
+    <input matInput
+           type="text"
+           required
+           placeholder="Last name">
+<!--    [(ngModel)]="contact.lastName"
+    name="flastName" #LastName="ngModel"
+    <mat-error *ngIf="LastName.invalid">
+      Last name required
+    </mat-error>-->
+  </mat-form-field><mat-form-field>
+    <input matInput
+           type="text"
+           required
+           placeholder="Phone">
+ <!--              [(ngModel)]="contact.phone"
+               name="phone" #phone="ngModel"
+    <mat-error *ngIf="phone.invalid">
+      Phone required
+    </mat-error>-->
+  </mat-form-field>
+  </mat-card-content>
+</mat-card>
